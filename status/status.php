@@ -48,21 +48,4 @@ if($uname != ""){
   
 }
 ?>
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Voucher-<?= $hotspotname."-".$uname;?></title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta http-equiv="pragma" content="no-cache" />
-		<style>
-		body {
-  			font-family: 'Helvetica', arial, sans-serif;
-			font-size: 15px;
-			margin:0px;
-  		}
-		</style>
-	</head>
-	<body>
-		<div style="padding:5px;" id="exp" ><?= $exp;?></div>	
-	</body>
-</html>
+<?= $exp;?>
